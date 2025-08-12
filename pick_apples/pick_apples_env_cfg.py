@@ -75,7 +75,7 @@ class PickApplesSceneCfg(InteractiveSceneCfg):
         ),
     )
     
-    # zu kopieren und nur einzelne Felder anzupassen (prim_path/init_state).
+
 
     # --- Tisch: Position/Groesse wie in deiner funktionierenden Variante -------
     table: RigidObjectCfg = RigidObjectCfg(
