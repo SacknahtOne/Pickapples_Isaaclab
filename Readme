@@ -13,8 +13,6 @@ Dann: pip install -r requirements.txt
 
 
 
-
-
 ZUM STARTEN:
 
 hier: im conda env:  /home/remote/IsaacLab/leisaac/scripts/environments/teleoperation
@@ -33,14 +31,8 @@ python teleop_se3_agent.py \
 
 
 
-
-
-
 hdf.5 datein sind hier:
 /home/remote/IsaacLab/leisaac/scripts/environments/teleoperation/outputs
-
-
-
 
 
 
@@ -51,7 +43,7 @@ ALTERNATIVE: selber ordnerpfad, im conda env
 remote@Remote-HS:~$ python teleop_se3_agent.py   --task=LeIsaac-SO101-PickApples-v0   --teleop_device=keyboard   --record   --dataset_file=outputs/pick_apples_demo_001.hdf5   --enable_cameras
 
 
-
+Im Ordner Docs sind Fehleranalysen und Fix-Patterns zu häufig auftretenden Fehlern.
 
 
 
